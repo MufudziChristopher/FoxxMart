@@ -1,0 +1,198 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 09/03/2020 09:35
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-cogwheels:before { content: "\f100"; }
+.flaticon-execution:before { content: "\f101"; }
+.flaticon-cctv:before { content: "\f102"; }
+.flaticon-cctv-1:before { content: "\f103"; }
+.flaticon-cctv-2:before { content: "\f104"; }
+.flaticon-cctv-3:before { content: "\f105"; }
+.flaticon-bluetooth:before { content: "\f106"; }
+.flaticon-bluetooth-1:before { content: "\f107"; }
+.flaticon-software:before { content: "\f108"; }
+.flaticon-server:before { content: "\f109"; }
+.flaticon-innovation:before { content: "\f10a"; }
+.flaticon-system:before { content: "\f10b"; }
+.flaticon-computer:before { content: "\f10c"; }
+.flaticon-data:before { content: "\f10d"; }
+.flaticon-data-collection:before { content: "\f10e"; }
+.flaticon-file:before { content: "\f10f"; }
+.flaticon-passkey:before { content: "\f110"; }
+.flaticon-password:before { content: "\f111"; }
+.flaticon-password-1:before { content: "\f112"; }
+.flaticon-login:before { content: "\f113"; }
+.flaticon-operating-system:before { content: "\f114"; }
+.flaticon-math:before { content: "\f115"; }
+.flaticon-terminal-windows:before { content: "\f116"; }
+.flaticon-computer-monitor:before { content: "\f117"; }
+.flaticon-cloud:before { content: "\f118"; }
+.flaticon-server-1:before { content: "\f119"; }
+.flaticon-big-data:before { content: "\f11a"; }
+.flaticon-fan:before { content: "\f11b"; }
+.flaticon-graphics-card:before { content: "\f11c"; }
+.flaticon-extractor-hood:before { content: "\f11d"; }
+.flaticon-fan-1:before { content: "\f11e"; }
+.flaticon-github:before { content: "\f11f"; }
+.flaticon-instagram:before { content: "\f120"; }
+.flaticon-facebook-1:before { content: "\f121"; }
+.flaticon-twitter-1:before { content: "\f122"; }
+.flaticon-whatsapp:before { content: "\f123"; }
+.flaticon-paper-plane:before { content: "\f124"; }
+.flaticon-linkedin:before { content: "\f125"; }
+.flaticon-pinterest:before { content: "\f126"; }
+.flaticon-soundcloud-1:before { content: "\f127"; }
+.flaticon-domain:before { content: "\f128"; }
+.flaticon-firewall:before { content: "\f129"; }
+.flaticon-protection:before { content: "\f12a"; }
+.flaticon-firewall-2:before { content: "\f12b"; }
+.flaticon-hacker:before { content: "\f12c"; }
+.flaticon-jesus:before { content: "\f12d"; }
+.flaticon-calvary:before { content: "\f12e"; }
+.flaticon-coffee:before { content: "\f12f"; }
+.flaticon-coffee-cup:before { content: "\f130"; }
+.flaticon-debit-card:before { content: "\f131"; }
+.flaticon-cafe:before { content: "\f132"; }
+.flaticon-coffee-shop:before { content: "\f133"; }
+.flaticon-chat:before { content: "\f134"; }
+.flaticon-chat-1:before { content: "\f135"; }
+.flaticon-handshake:before { content: "\f136"; }
+.flaticon-contacts-book:before { content: "\f137"; }
+.flaticon-trophy:before { content: "\f138"; }
+.flaticon-success:before { content: "\f139"; }
+.flaticon-win:before { content: "\f13a"; }
+.flaticon-confetti:before { content: "\f13b"; }
+.flaticon-fireworks:before { content: "\f13c"; }
+.flaticon-confetti-1:before { content: "\f13d"; }
+.flaticon-beer:before { content: "\f13e"; }
+.flaticon-dance:before { content: "\f13f"; }
+.flaticon-fireworks-1:before { content: "\f140"; }
+.flaticon-ubuntu-sketched-logo:before { content: "\f141"; }
+.flaticon-administrator:before { content: "\f142"; }
+.flaticon-capcom:before { content: "\f143"; }
+.flaticon-budget:before { content: "\f144"; }
+.flaticon-index:before { content: "\f145"; }
+.flaticon-signature:before { content: "\f146"; }
+.flaticon-work-time:before { content: "\f147"; }
+.flaticon-lan:before { content: "\f148"; }
+.flaticon-wifi:before { content: "\f149"; }
+.flaticon-space-shuttle:before { content: "\f14a"; }
+.flaticon-technician:before { content: "\f14b"; }
+.flaticon-schedule-1:before { content: "\f14c"; }
+.flaticon-calendar:before { content: "\f14d"; }
+.flaticon-bullseye-2:before { content: "\f14e"; }
+    
+    $font-Flaticon-cogwheels: "\f100";
+    $font-Flaticon-execution: "\f101";
+    $font-Flaticon-cctv: "\f102";
+    $font-Flaticon-cctv-1: "\f103";
+    $font-Flaticon-cctv-2: "\f104";
+    $font-Flaticon-cctv-3: "\f105";
+    $font-Flaticon-bluetooth: "\f106";
+    $font-Flaticon-bluetooth-1: "\f107";
+    $font-Flaticon-software: "\f108";
+    $font-Flaticon-server: "\f109";
+    $font-Flaticon-innovation: "\f10a";
+    $font-Flaticon-system: "\f10b";
+    $font-Flaticon-computer: "\f10c";
+    $font-Flaticon-data: "\f10d";
+    $font-Flaticon-data-collection: "\f10e";
+    $font-Flaticon-file: "\f10f";
+    $font-Flaticon-passkey: "\f110";
+    $font-Flaticon-password: "\f111";
+    $font-Flaticon-password-1: "\f112";
+    $font-Flaticon-login: "\f113";
+    $font-Flaticon-operating-system: "\f114";
+    $font-Flaticon-math: "\f115";
+    $font-Flaticon-terminal-windows: "\f116";
+    $font-Flaticon-computer-monitor: "\f117";
+    $font-Flaticon-cloud: "\f118";
+    $font-Flaticon-server-1: "\f119";
+    $font-Flaticon-big-data: "\f11a";
+    $font-Flaticon-fan: "\f11b";
+    $font-Flaticon-graphics-card: "\f11c";
+    $font-Flaticon-extractor-hood: "\f11d";
+    $font-Flaticon-fan-1: "\f11e";
+    $font-Flaticon-github: "\f11f";
+    $font-Flaticon-instagram: "\f120";
+    $font-Flaticon-facebook-1: "\f121";
+    $font-Flaticon-twitter-1: "\f122";
+    $font-Flaticon-whatsapp: "\f123";
+    $font-Flaticon-paper-plane: "\f124";
+    $font-Flaticon-linkedin: "\f125";
+    $font-Flaticon-pinterest: "\f126";
+    $font-Flaticon-soundcloud-1: "\f127";
+    $font-Flaticon-domain: "\f128";
+    $font-Flaticon-firewall: "\f129";
+    $font-Flaticon-protection: "\f12a";
+    $font-Flaticon-firewall-2: "\f12b";
+    $font-Flaticon-hacker: "\f12c";
+    $font-Flaticon-jesus: "\f12d";
+    $font-Flaticon-calvary: "\f12e";
+    $font-Flaticon-coffee: "\f12f";
+    $font-Flaticon-coffee-cup: "\f130";
+    $font-Flaticon-debit-card: "\f131";
+    $font-Flaticon-cafe: "\f132";
+    $font-Flaticon-coffee-shop: "\f133";
+    $font-Flaticon-chat: "\f134";
+    $font-Flaticon-chat-1: "\f135";
+    $font-Flaticon-handshake: "\f136";
+    $font-Flaticon-contacts-book: "\f137";
+    $font-Flaticon-trophy: "\f138";
+    $font-Flaticon-success: "\f139";
+    $font-Flaticon-win: "\f13a";
+    $font-Flaticon-confetti: "\f13b";
+    $font-Flaticon-fireworks: "\f13c";
+    $font-Flaticon-confetti-1: "\f13d";
+    $font-Flaticon-beer: "\f13e";
+    $font-Flaticon-dance: "\f13f";
+    $font-Flaticon-fireworks-1: "\f140";
+    $font-Flaticon-ubuntu-sketched-logo: "\f141";
+    $font-Flaticon-administrator: "\f142";
+    $font-Flaticon-capcom: "\f143";
+    $font-Flaticon-budget: "\f144";
+    $font-Flaticon-index: "\f145";
+    $font-Flaticon-signature: "\f146";
+    $font-Flaticon-work-time: "\f147";
+    $font-Flaticon-lan: "\f148";
+    $font-Flaticon-wifi: "\f149";
+    $font-Flaticon-space-shuttle: "\f14a";
+    $font-Flaticon-technician: "\f14b";
+    $font-Flaticon-schedule-1: "\f14c";
+    $font-Flaticon-calendar: "\f14d";
+    $font-Flaticon-bullseye-2: "\f14e";

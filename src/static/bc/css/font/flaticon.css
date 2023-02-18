@@ -1,0 +1,111 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 09/03/2020 09:35
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-cogwheels:before { content: "\f100"; }
+.flaticon-execution:before { content: "\f101"; }
+.flaticon-cctv:before { content: "\f102"; }
+.flaticon-cctv-1:before { content: "\f103"; }
+.flaticon-cctv-2:before { content: "\f104"; }
+.flaticon-cctv-3:before { content: "\f105"; }
+.flaticon-bluetooth:before { content: "\f106"; }
+.flaticon-bluetooth-1:before { content: "\f107"; }
+.flaticon-software:before { content: "\f108"; }
+.flaticon-server:before { content: "\f109"; }
+.flaticon-innovation:before { content: "\f10a"; }
+.flaticon-system:before { content: "\f10b"; }
+.flaticon-computer:before { content: "\f10c"; }
+.flaticon-data:before { content: "\f10d"; }
+.flaticon-data-collection:before { content: "\f10e"; }
+.flaticon-file:before { content: "\f10f"; }
+.flaticon-passkey:before { content: "\f110"; }
+.flaticon-password:before { content: "\f111"; }
+.flaticon-password-1:before { content: "\f112"; }
+.flaticon-login:before { content: "\f113"; }
+.flaticon-operating-system:before { content: "\f114"; }
+.flaticon-math:before { content: "\f115"; }
+.flaticon-terminal-windows:before { content: "\f116"; }
+.flaticon-computer-monitor:before { content: "\f117"; }
+.flaticon-cloud:before { content: "\f118"; }
+.flaticon-server-1:before { content: "\f119"; }
+.flaticon-big-data:before { content: "\f11a"; }
+.flaticon-fan:before { content: "\f11b"; }
+.flaticon-graphics-card:before { content: "\f11c"; }
+.flaticon-extractor-hood:before { content: "\f11d"; }
+.flaticon-fan-1:before { content: "\f11e"; }
+.flaticon-github:before { content: "\f11f"; }
+.flaticon-instagram:before { content: "\f120"; }
+.flaticon-facebook-1:before { content: "\f121"; }
+.flaticon-twitter-1:before { content: "\f122"; }
+.flaticon-whatsapp:before { content: "\f123"; }
+.flaticon-paper-plane:before { content: "\f124"; }
+.flaticon-linkedin:before { content: "\f125"; }
+.flaticon-pinterest:before { content: "\f126"; }
+.flaticon-soundcloud-1:before { content: "\f127"; }
+.flaticon-domain:before { content: "\f128"; }
+.flaticon-firewall:before { content: "\f129"; }
+.flaticon-protection:before { content: "\f12a"; }
+.flaticon-firewall-2:before { content: "\f12b"; }
+.flaticon-hacker:before { content: "\f12c"; }
+.flaticon-jesus:before { content: "\f12d"; }
+.flaticon-calvary:before { content: "\f12e"; }
+.flaticon-coffee:before { content: "\f12f"; }
+.flaticon-coffee-cup:before { content: "\f130"; }
+.flaticon-debit-card:before { content: "\f131"; }
+.flaticon-cafe:before { content: "\f132"; }
+.flaticon-coffee-shop:before { content: "\f133"; }
+.flaticon-chat:before { content: "\f134"; }
+.flaticon-chat-1:before { content: "\f135"; }
+.flaticon-handshake:before { content: "\f136"; }
+.flaticon-contacts-book:before { content: "\f137"; }
+.flaticon-trophy:before { content: "\f138"; }
+.flaticon-success:before { content: "\f139"; }
+.flaticon-win:before { content: "\f13a"; }
+.flaticon-confetti:before { content: "\f13b"; }
+.flaticon-fireworks:before { content: "\f13c"; }
+.flaticon-confetti-1:before { content: "\f13d"; }
+.flaticon-beer:before { content: "\f13e"; }
+.flaticon-dance:before { content: "\f13f"; }
+.flaticon-fireworks-1:before { content: "\f140"; }
+.flaticon-ubuntu-sketched-logo:before { content: "\f141"; }
+.flaticon-administrator:before { content: "\f142"; }
+.flaticon-capcom:before { content: "\f143"; }
+.flaticon-budget:before { content: "\f144"; }
+.flaticon-index:before { content: "\f145"; }
+.flaticon-signature:before { content: "\f146"; }
+.flaticon-work-time:before { content: "\f147"; }
+.flaticon-lan:before { content: "\f148"; }
+.flaticon-wifi:before { content: "\f149"; }
+.flaticon-space-shuttle:before { content: "\f14a"; }
+.flaticon-technician:before { content: "\f14b"; }
+.flaticon-schedule-1:before { content: "\f14c"; }
+.flaticon-calendar:before { content: "\f14d"; }
+.flaticon-bullseye-2:before { content: "\f14e"; }

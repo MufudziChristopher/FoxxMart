@@ -1,0 +1,291 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mufuddzi Christopher Online Portfolio</title>
+    <meta name="description" content="Online Portfolio for Mufudzi Christopher Web Development Solutions" />
+    <meta name="keywords" content="online portfolio showcasing what Mufudzi Christopher has to offer in a way that represents who he is and what he is capable of. I hope you have a pleasant experience." />
+    <meta name="author" content="Mufudzi CHristopher and Codrops" />
+    <link rel="shortcut icon" href="{% static 'images/brand.png' %}">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'home/css/demo.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'home/css/component.css' %}" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="pages-nav">
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#page-home">Home</a>
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#page-Maxim-Kids">Maxim Kids</a>
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#page-Hospitality-Pro-Recruitment">Hospitality Pro</a>
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#page-3rd-Axis">3rd Axis</a>
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#page-The-Collective">The Collective</a>
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#page-NXT-LVL-Tech">VFS Canada</a>
+      </div>
+      <div class="pages-nav__item pages-nav__item--small">
+        <a class="link link--page link--faded" href="#page-tgy">The Golden Years</a>
+      </div>
+      <div class="pages-nav__item pages-nav__item--small">
+        <a class="link link--page link--faded" href="#page-bc">Brand Central</a>
+      </div>
+      <div class="pages-nav__item pages-nav__item--small">
+        <a class="link link--page link--faded" href="#page-rnc">Risk Mitigation Consultants</a>
+      </div>
+      <div class="pages-nav__item pages-nav__item--small">
+        <a class="link link--page link--faded" href="#page-idaca">IDACA</a>
+      </div>
+      <div class="pages-nav__item pages-nav__item--small">
+        <a class="link link--page link--faded" href="#page-africanus">African Utility Suppliers</a>
+      </div>
+      <div class="pages-nav__item pages-nav__item--small">
+        <a class="link link--page link--faded" href="#page-nou">Nouvelle</a>
+      </div>
+      <div class="pages-nav__item pages-nav__item--social">
+        <a class="link link--social link--faded" href="#">
+          <i class="fa fa-twitter"></i>
+          <span class="text-hidden">Twitter</span>
+        </a>
+        <a class="link link--social link--faded" href="#">
+          <i class="fa fa-linkedin"></i>
+          <span class="text-hidden">LinkedIn</span>
+        </a>
+        <a class="link link--social link--faded" href="#">
+          <i class="fa fa-facebook"></i>
+          <span class="text-hidden">Facebook</span>
+        </a>
+        <a class="link link--social link--faded" href="#">
+          <i class="fa fa-youtube-play"></i>
+          <span class="text-hidden">YouTube</span>
+        </a>
+      </div>
+    </nav>
+    <!-- /navigation-->
+    <!-- pages stack -->
+    <div class="pages-stack">
+      <!-- page -->
+      <div class="page" id="page-home">
+        <!-- Blueprint header -->
+        <header class="bp-header cf">
+          <span class="bp-header__present">Online Portfolio <span class="bp-tooltip bp-icon bp-icon--about" data-content="Online Portfolio for Mufudzi CHristopher Web Development Solutions"></span>
+          </span>
+          <h1 class="bp-header__title">Mufudzi Christopher</h1>
+          <p class="bp-header__desc">Freelance Web Developer and Website Designer </p>
+          <nav class="bp-nav">
+            <a class="bp-nav__item bp-icon bp-icon--prev" href="http://tympanus.net/Blueprints/ZoomSlider/" data-info="previous Blueprint">
+              <span>Previous Blueprint</span>
+            </a>
+            <!--a class="bp-nav__item bp-icon bp-icon--next" href="" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+            <a class="bp-nav__item bp-icon bp-icon--drop" href="http://tympanus.net/codrops/?p=25311" data-info="back to the Codrops article">
+              <span>back to the Codrops article</span>
+            </a>
+            <a class="bp-nav__item bp-icon bp-icon--archive" href="mailto://mufudzichristopher@outlook.com" data-info="Email Me">
+              <span>Mail Me</span>
+            </a>
+          </nav>
+        </header>
+        <p> {% if messages %} {% for message in messages %}
+        <div class="alert alert-warning alert-dismissable page" role="alert">
+          <button class="close" data-dismiss="modal">
+            <small>
+              <sup>x</sup>
+            </small>
+          </button>
+          {{ message }}
+        </div> {% endfor %} {%  endif %} </p>
+        <!-- services
+    ================================================== -->
+        <section id='services' class="s-services light-gray">
+          <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+              <h3 class="subhead">What I Do.</h3>
+              <h1 class="display-1"> I am an IT Creative. <br> I don't just make websites, I build brands. <br>
+              </h1>
+            </div>
+          </div>
+          <!-- end about-desc -->
+          <div class="row services-list block-1-3 block-m-1-2 block-tab-full" style="text-align: center">
+            <div class="col-block service-item" data-aos="fade-up">
+              <div class="service-icon  service-icon--illustration">
+                <i style="color: #000" class="fa fa-cloud"></i>
+              </div>
+              <div class="service-text">
+                <h3 class="h4">Web Application Development</h3>
+                <p> I learnt how to build web applications in Visual Studio. This was also my first opportunity to collaborate in a team on a real world systems development project. Using C#, ASP.NET MVC 4, css, bootsrap, javascript, and the kitchen sink we built a stunning web application that was responsive and user friendly. I am always in development mode because I employ an agile approach when working on projects and tasks. I plan to develop something new and exciting the world's never seen before. Watch this space. </p>
+                <br>
+                <button class="notif-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="2px" viewBox="0 0 24 24" width="28">
+                    <path d="M12 23c1.1 0 1.99-.89 1.99-1.99h-3.98c0 1.1.89 1.99 1.99 1.99zm8.29-4.71L19 17v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-1.29 1.29c-.63.63-.19 1.71.7 1.71h15.17c.9 0 1.34-1.08.71-1.71zM13 16h-2v-2h2v2zm0-5c0 .55-.45 1-1 1s-1-.45-1-1V9c0-.55.45-1 1-1s1 .45 1 1v2z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="col-block service-item" data-aos="fade-up">
+              <div class="service-icon  service-icon--illustration">
+                <i style="color: #000" class="icon-earth"></i>
+              </div>
+              <div class="service-text">
+                <h3 class="h4">Website Design</h3>
+                <p> I have a sweet tooth for style and presentation which makes me a unique asset when creativity is a requirement. I understand people and what they want out of a website, what attracts them to one and keeps them coming back. I am innovative and not afraid to experiment. All of these talents give me an almost super human ability to consistently deliver a sophisticated, hand-crafted solution guaranteed to make you smile. <br>
+                  <br>
+                </p>
+                <button class="notif-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 0 24 24" width="28">
+                    <path d="M12 23c1.1 0 1.99-.89 1.99-1.99h-3.98c0 1.1.89 1.99 1.99 1.99zm8.29-4.71L19 17v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-1.29 1.29c-.63.63-.19 1.71.7 1.71h15.17c.9 0 1.34-1.08.71-1.71zM13 16h-2v-2h2v2zm0-5c0 .55-.45 1-1 1s-1-.45-1-1V9c0-.55.45-1 1-1s1 .45 1 1v2z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="col-block service-item" data-aos="fade-up">
+              <div class="service-icon  service-icon-web-design">
+                <i style="color: #000" class=" fas fa-shopping-cart"></i>
+              </div>
+              <div class="service-text">
+                <h3 class="h4">E Commerce</h3>
+                <p>I am a programmer that writes programs to make mundane and repetitive tasks less annoying. I learn new languages with ease and grasp concepts and methods quickly. I keep up-to-date with the latest technology trends and news. I have a keen interest in the internet and traverse its furthest reaches on a daily basis.</p>
+                <br>
+              </div>
+              <button class="notif-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 0 24 24" width="28">
+                  <path d="M12 23c1.1 0 1.99-.89 1.99-1.99h-3.98c0 1.1.89 1.99 1.99 1.99zm8.29-4.71L19 17v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-1.29 1.29c-.63.63-.19 1.71.7 1.71h15.17c.9 0 1.34-1.08.71-1.71zM13 16h-2v-2h2v2zm0-5c0 .55-.45 1-1 1s-1-.45-1-1V9c0-.55.45-1 1-1s1 .45 1 1v2z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- end s-services -->
+        <img class="poster" src="{% static 'images/brand.png' %}" alt="img06" />
+      </div>
+      <div class="page" id="page-Maxim-Kids">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Maxim Boxing Promotion</h1>
+          <p class="bp-header__desc">This portfolio section highlights my work on the WordPress website development project for Maxim Kids, showcasing updates and upgrades made to the website. Get a glimpse of my expertise and quality results as a freelance WordPress developer. <a href="https://maximkids.org" target="_blank">Maxim Kids</a>
+          </p>
+          <p class="info"> Welcome to the portfolio section dedicated to showcasing my work on the WordPress website development project for Maxim Kids. This section will provide an in-depth look at the updates and upgrades I have made to the website, as well as the processes and techniques used to ensure the success of the project. With my extensive experience as a freelance WordPress developer, I am confident in my ability to deliver high-quality results that meet the needs and expectations of my clients. This portfolio section serves as a testament to my skills and expertise, and I am proud to share it with you. </p>
+        </header>
+        <img class="poster" src="{% static 'images/maximkids.png' %}" alt="img06" />
+      </div>
+      <div class="page" id="page-Hospitality-Pro-Recruitment">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Hospitality Pro Recruitment</h1>
+          <p class="bp-header__desc">A Multidimensional Recruitment Agency <a target="_blank" href="https://hospitalitypro.africa">Hospitality Pro Recruitment</a>
+          </p>
+          <p class="info"> This is a redisgn of a static single page website. Ive chosen it as a feature on my portfolio to showcase the iterations this website has gone through. An how the client was satisfied each time. A simple tool, an online business card if you willfor users to easily sign up for or request Hospitality Pro's recruitment services. You can access the prevous build here. </p>
+          <a href="https://hospitalitypro.africa/sandbox/old" target="_blank">Hospitality Pro Recruitment (Old)</a>
+        </header>
+        <img class="poster" src="{% static 'images/hprologo.png' %}" alt="img06" />
+      </div>
+      <!-- /page -->
+      <div class="page" id="page-3rd-Axis">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">3rd Axis</h1>
+          <p class="bp-header__desc">3D Printing Company based in Observatory, Cape Town <a href="{% url 'Axis:store' %}">3rd Axis</a>
+          </p>
+          <p class="info">During the midst of the Covid 19 Lockdown. I was contacted by a team looking for a web developer to lead the development team of a 3D printing company start-up initiative. I used the Python Django Rest Framework to develop this website. An eccomerce platform with CRM to quickly and efficiently manage stock and orders with an elegeant, almost transparent front end. I tried to create a shopping experience free from noise that was quick and fast but also smooth ans soothing. The front end loading makes product filtering easy and the quick access to your cart allows you to keep an close eye on you total. This website is simple yet robust with new features on the way. </p>
+        </header>
+        <img class="poster" src="{% static 'images/III-light.gif' %}" alt="img06" />
+      </div>
+      <div class="page" id="page-The-Collective">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">The Collective</h1>
+          <p class="bp-header__desc">An Online Store showcasing limited edition designer goods. <a href="{% url 'Collective:store' %}"> The Collective</a>
+          </p>
+          <p class="info"> Addingthis eccomerce store to the collections allows users to brows multiple shops with one account.The stores are easy to set upand customise which brings your development costs way down. Its a store that gets straight down to the point, which is the products,or collection there of. Front end processing means you'll never have to wait for the page to load while viewing the products. </p>
+        </header>
+        <img class="poster" src="{% static 'images/II-light.gif' %}" alt="img06" />
+      </div>
+      <div class="page" id="page-NXT-LVL-Tech">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">VFS Canada</h1>
+          <p class="bp-header__desc">A Visa Facilitation Services Global application and tracking software for the VFS Canada, Benin - <a target="_blank" href="https://vfs-canada-online.df.r.appspot.com">VFS Canada</a>
+          </p>
+          <p class="info">This website uses a custom user model that enables users to better access its tools. The website is used to apply, track and monitor the status of your visa application. This particular version was for demonstration purposes outlining the important flows along the user journey. </p>
+        </header>
+        <img class="poster" src="{% static 'images/logo.png' %}" alt="img06" />
+      </div>
+      <div class="page" id="page-Resume">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">The Golden Years</h1>
+          <p class="bp-header__desc">
+            <a href="https://thegoldenyears.com" target="_blank">The Golden Years</a>
+          </p>
+          </iframe>
+        </header>
+        <img class="poster" src="{% static 'images/tgylogo.png' %}" alt="img06" /> 
+      </div>
+      <div class="page" id="page-Bio">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Risk Mitigation Consultants</h1>
+          <p class="bp-header__desc">
+              Risk Mitigation Consultants assess risk factors, analyse intelligence and implement safety and security measures for residential, retail, commercial and industrial assets.   
+
+            <a target="_blank" href="riskmitigation.co.za">Risk Mitigation Consultants</a>
+          </p>
+          <p class="info"></p>
+        </header>
+        <img class="poster" src="{% static 'images/rmclogo.jpg' %}" alt="img06" />
+      </div>
+      <div class="page" id="page-Cover-Letter">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Brand Central</h1>
+          <p class="bp-header__desc">
+            <a target="_blank" href="{% url 'Projects:bc' %}"> Brand Central</a>
+          </p>
+          <p class="info"></p>
+        </header>
+        <img class="poster" src="{% static 'bc/bclogo.png' %}" alt="img06" />
+      </div>
+      <div class="page" id="page-Cover-Letter">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">IDA Cooper and Associates</h1>
+          <p class="bp-header__desc">
+              IDACA student support services is a small, highly professional and personalised organisation. We provide international students with all the assistance they need to locate themselves easily in Cape Town and at UCT as well as with on- going support and services throughout the semester abroad. The welfare of the students and professional service to our American partner universities and colleges is and always has been our mission.   
+            <a target="_blank" href="{% url 'Projects:idaca' %}"> IDA Cooper & Associates</a>
+          </p>
+          <p class="info"></p>
+        </header>
+        <img class="poster" src="{% static 'idaca/images/IDACA.jpeg' %}" alt="img06" />
+      </div>
+      <div class="page" id="page-africanus">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">African Utility Suppliers</h1>
+          <p class="bp-header__desc">
+              Wholesale suppliers of electric tools and equipment including maintenance services.   
+            <a target="_blank" href="{% url 'Projects:africanus' %}"> African Utility Suppliers</a>
+          </p>
+          <p class="info"></p>
+        </header>
+        <img class="poster" src="{% static 'images/africanus.jpeg' %}" alt="img06" />
+      </div>
+      <div class="page" id="page-nou">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Nouvelle</h1>
+          <p class="bp-header__desc">
+            <a target="_blank" href="{% url 'Projects:bc' %}"> Nouvelle </a>
+          </p>
+          <p class="info"></p>
+        </header>
+        <img class="poster" src="{% static 'images/III-light.gif' %}" alt="img06" />
+      </div>
+    </div>
+    <!-- /pages-stack -->
+    <button class="menu-button">
+      <span>Menu</span>
+    </button>
+    <script type="module" src="{% static 'home/js/classie.js' %}"></script>
+    <script type="module" src="{% static 'home/js/main.js' %}"></script>
+  </body>
+</html>
